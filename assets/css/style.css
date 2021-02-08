@@ -63,61 +63,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #fff;
-}
-
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #9b2e29;
-  border-top-color: #ffe9e3;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: animate-preloader 1s linear infinite;
-  animation: animate-preloader 1s linear infinite;
-}
-
-@-webkit-keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices
---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-}
-
-/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
@@ -196,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #9b2e29;
   visibility: hidden;
   width: 0px;
-  transition: all 0.3s ease-in-out 0s;
+  transition: all 10.3s ease-in-out 0s;
 }
 
 .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
@@ -328,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .mobile-nav {
@@ -339,8 +284,8 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
-  transition: ease-in-out 0.2s;
+  background: rgb(255, 255, 255);
+  transition: ease-in-out .5s;
   opacity: 0;
   visibility: hidden;
   border-radius: 10px;
@@ -417,6 +362,8 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
 }
+
+
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -1699,3 +1646,39 @@ section {
 #footer .credits a {
   transition: 0.3s;
 }
+
+
+/*
+---------DONA BUTTON-------------------
+*/
+
+
+.dona-btn {
+  font-family: "Montserrat ExtraBold";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px 35px 10px 35px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #9b2e29;
+  border: 2px solid #9b2e29;
+  margin: 0 auto;
+}
+.dona-btn:hover {
+  border-color: #fff;
+  color:#121d24;
+}
+
+
+#dona.dona-btn {
+  display: inline;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-weight: 500;
+  outline: none;
+}
+
+
