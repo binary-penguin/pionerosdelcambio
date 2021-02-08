@@ -1679,6 +1679,14 @@ section {
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
-}
 
+}
+.mobile-nav #dona {
+  display: inline;
+  color: #ffffff;
+  padding: 10px 20px;
+  margin-left: 15px;
+  font-weight: 500;
+  outline: none;
+}
 
