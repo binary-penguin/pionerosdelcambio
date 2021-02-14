@@ -127,13 +127,16 @@
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
+      $('#dona').addClass('dona-scrolled');
     } else {
       $('#header').removeClass('header-scrolled');
+      $('#dona').removeClass('dona-scrolled');
     }
   });
 
   if ($(window).scrollTop() > 100) {
     $('#header').addClass('header-scrolled');
+    $('#dona').addClass('dona-scrolled');
   }
 
   // Back to top button
