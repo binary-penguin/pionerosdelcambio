@@ -1645,6 +1645,9 @@ section {
 #footer .credits a {
   transition: 0.3s;
 }
+#jf{
+    color: rgb(242, 160, 160);
+}
 
 
 /*
@@ -1709,5 +1712,12 @@ section {
     position: relative;
     height: 0;
     overflow:auto;
+
+}
+#P-footer{
+    width: 50%;
+}
+.comite-icon{
+    padding-left:0.7rem !important;
 
 }
