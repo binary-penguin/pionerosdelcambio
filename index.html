@@ -6,11 +6,11 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Pioneros del Cambio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="Pioneros del Cambio es una Asociación Civil que trata de concientizar acerca de problemáticas sociales, así como ayudar a solventarlas." name="description">
+  <meta content="pioneros, cambio, ac, asociacion, voluntariado"  name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/p-icon.png" rel="icon">
+  <link href="assets/img/P.png" rel="icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -61,14 +61,12 @@
           <li><a href="#noticias">Noticias</a></li>
           <li><a href="#contacto">Contacto</a></li>
           <br>
-          <li><a href="#about" id="dona" class="dona-btn">Dona</a></li>
+          <li><a href="#about" id="dona" class="dona-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Dona</a></li>
         </ul>
       </nav><!-- .nav-menu -->
-      
-
     </div>
   </header><!-- End Header -->
-
+  
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
@@ -82,6 +80,28 @@
   </section><!-- End Hero -->
 
   <main id="main">
+
+        <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Datos bancarios</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <strong>Nombre: </strong> Pioneros del Cambio AC<br>
+            <strong>Banco: </strong> Santander<br>
+            <strong>CLABE: </strong> 123 456 789<br>
+            <strong>No. Tarjeta: </strong> 987 654 321<br>
+            <strong>Fecha exp: </strong> 25/08<br>
+            </div>
+            <div class="modal-footer text-end">
+            <a class="btn btn-secondary" id="btn-modal" data-bs-dismiss="modal">Ok</a>
+            </div>
+        </div>
+        </div>
+    </div>
 
     <!-- ======= About Section ======= -->
     <section id="quienes-somos" class="about">

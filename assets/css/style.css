@@ -285,6 +285,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0;
 }
 
+#staticBackdrop {
+    z-index: 10000;
+}
+
 .mobile-nav * {
   margin: 0;
   padding: 0;
@@ -1775,4 +1779,8 @@ section {
     color: #c5271f;
     border-color: rgb(0, 0, 0);
 
+}
+#btn-modal{
+    background-color: #9b2f29f2;
+    border-color: white;
 }
