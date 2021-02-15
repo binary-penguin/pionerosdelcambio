@@ -945,7 +945,7 @@ section {
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/testimonials-bg.jpeg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -1719,5 +1719,67 @@ section {
 }
 .comite-icon{
     padding-left:0.7rem !important;
+
+}
+
+.post-title{
+    color:#000000;
+}
+.post-title:hover{
+    color: #c5271f;
+}
+
+.post-subtitle{
+    font-size: 1.5rem;
+    color: #c5271f;
+}
+
+
+/*# Header PORTFOLIO
+--------------------------------------------------------------*/
+
+#header-portfolio {
+  background: #9b2f29f2;
+  padding: 12px 0;
+}
+
+#header-portfolio .logo {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#header-portfolio .logo a {
+  color: #fff;
+}
+
+#header-portfolio .logo img {
+  max-height: 40px;
+}
+
+@media (max-width: 992px) {
+  #header-portfolio {
+    padding: 12px 0;
+  }
+}
+#dona-portfolio.dona-btn{
+    border-color: #fff;
+}
+#dona-portfolio.dona-btn {
+    display: inline;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: 500;
+    outline: none;
+  
+  }
+
+.blockquote{
+    font-size: 80%;
+    color: #c5271f;
+    border-color: rgb(0, 0, 0);
 
 }
