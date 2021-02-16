@@ -1784,3 +1784,7 @@ section {
     background-color: #9b2f29f2;
     border-color: white;
 }
+
+#row-pills{
+    --bs-gutter-x: 0rem;
+}
