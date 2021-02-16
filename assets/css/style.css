@@ -1714,11 +1714,6 @@ section {
 #P-footer{
     width: 50%;
 }
-.comite-icon{
-    padding-left:0.7rem !important;
-
-}
-
 .post-title{
     color:#000000;
 }
@@ -1783,8 +1778,4 @@ section {
 #btn-modal{
     background-color: #9b2f29f2;
     border-color: white;
-}
-
-#row-pills{
-    --bs-gutter-x: 0rem;
 }
