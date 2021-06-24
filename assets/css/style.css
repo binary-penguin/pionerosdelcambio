@@ -1110,7 +1110,7 @@ section {
     opacity: 0;
     position: absolute;
     left: 15px;
-    right: 15px;
+    right: 52px;
     bottom: -50px;
     z-index: 3;
     transition: all ease-in-out 0.3s;
@@ -1440,6 +1440,7 @@ section {
 
 .portfolio-details .portfolio-details-container {
     position: relative;
+    width: 50%;
 }
 
 .portfolio-details .portfolio-details-carousel {
